@@ -72,7 +72,7 @@
   require('lspconfig')['cssls'].setup {
     capabilities = capabilities
   }
-  require('lspconfig')['emmet-ls'].setup {
+  require('lspconfig')['emmet_ls'].setup {
     capabilities = capabilities
   }
   require('lspconfig')['volar'].setup {
