@@ -1,7 +1,9 @@
+require("nvim-tree").setup()
+
 vim.cmd("colorscheme kanagawa-wave")
 
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 vim.opt.relativenumber = true
 vim.opt.number = true

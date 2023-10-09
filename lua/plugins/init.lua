@@ -22,6 +22,7 @@ require("lazy").setup({
   {
     "nvim-treesitter/nvim-treesitter", run = ":TSUpdate"
   },
+  "nvim-tree/nvim-tree.lua",
   "mhinz/vim-signify",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
