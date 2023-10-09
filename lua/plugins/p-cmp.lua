@@ -66,3 +66,15 @@
   require('lspconfig')['tsserver'].setup {
     capabilities = capabilities
   }
+  require('lspconfig')['html'].setup {
+    capabilities = capabilities
+  }
+  require('lspconfig')['cssls'].setup {
+    capabilities = capabilities
+  }
+  require('lspconfig')['emmet-ls'].setup {
+    capabilities = capabilities
+  }
+  require('lspconfig')['volar'].setup {
+    capabilities = capabilities
+  }
