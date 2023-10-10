@@ -31,6 +31,11 @@ require("lazy").setup({
       "MunifTanjim/nui.nvim",
     }
   },
+  {
+    'windwp/nvim-autopairs',
+    event = "InsertEnter",
+    opts = {} -- this is equalent to setup({}) function
+  },
   "mhinz/vim-signify",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
