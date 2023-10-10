@@ -1,9 +1,6 @@
-require("nvim-tree").setup()
-
 vim.cmd("colorscheme kanagawa-wave")
 
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 vim.opt.relativenumber = true
 vim.opt.number = true
@@ -22,3 +19,5 @@ vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 vim.keymap.set("n", "<leader>tt", ":tabnew<CR>")
 vim.keymap.set("n", "<leader>tn", ":tabnext<CR>")
 vim.keymap.set("n", "<leader>tc", ":tabclose<CR>")
+
+vim.keymap.set("n", "<leader>e", ":Neotree focus<CR>")

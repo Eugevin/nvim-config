@@ -22,7 +22,15 @@ require("lazy").setup({
   {
     "nvim-treesitter/nvim-treesitter", run = ":TSUpdate"
   },
-  "nvim-tree/nvim-tree.lua",
+  {
+    "nvim-neo-tree/neo-tree.nvim",
+    branch = "v3.x",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+      "MunifTanjim/nui.nvim",
+    }
+  },
   "mhinz/vim-signify",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",
@@ -36,6 +44,7 @@ require("lazy").setup({
   "hrsh7th/vim-vsnip"
 })
 
+require("plugins.p-neotree")
 require("plugins.p-mason")
 require("plugins.p-lsp")
 require("plugins.p-cmp")
