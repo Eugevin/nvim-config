@@ -36,5 +36,7 @@ require("lazy").setup({
   "hrsh7th/vim-vsnip"
 })
 
+require("plugins.p-mason")
 require("plugins.p-lsp")
 require("plugins.p-cmp")
+

@@ -1,8 +1,3 @@
-require("mason").setup()
-require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "rust_analyzer", "tsserver", "html", "cssls", "emmet_ls", "volar" },
-})
-
 -- Setup language servers.
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {}
@@ -56,3 +51,4 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end, opts)
   end,
 })
+
