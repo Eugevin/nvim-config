@@ -44,6 +44,7 @@ require("lazy").setup({
   "hrsh7th/vim-vsnip"
 })
 
+require("plugins.p-treesitter")
 require("plugins.p-neotree")
 require("plugins.p-mason")
 require("plugins.p-lsp")
