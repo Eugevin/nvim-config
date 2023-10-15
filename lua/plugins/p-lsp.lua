@@ -7,12 +7,7 @@ lspconfig.cssls.setup {}
 lspconfig.emmet_ls.setup {}
 lspconfig.volar.setup {}
 lspconfig.gopls.setup {}
-lspconfig.rust_analyzer.setup {
-  -- Server-specific settings. See `:help lspconfig-setup`
-  settings = {
-    ['rust-analyzer'] = {},
-  },
-}
+lspconfig.rust_analyzer.setup {}
 
 
 -- Global mappings.

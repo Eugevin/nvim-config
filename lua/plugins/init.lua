@@ -36,7 +36,6 @@ require("lazy").setup({
     event = "InsertEnter",
     opts = {} -- this is equalent to setup({}) function
   },
-  "rust-lang/rust.vim",
   "mhinz/vim-signify",
   "williamboman/mason.nvim",
   "williamboman/mason-lspconfig.nvim",

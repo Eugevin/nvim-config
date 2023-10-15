@@ -78,4 +78,9 @@ require('lspconfig')['emmet_ls'].setup {
 require('lspconfig')['volar'].setup {
   capabilities = capabilities
 }
-
+require('lspconfig')['gopls'].setup {
+  capabilities = capabilities
+}
+require('lspconfig')['rust_analyzer'].setup {
+  capabilities = capabilities
+}
