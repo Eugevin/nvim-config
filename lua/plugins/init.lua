@@ -32,7 +32,7 @@ require("lazy").setup({
     }
   },
   {
-    'windwp/nvim-autopairs',
+    "windwp/nvim-autopairs",
     event = "InsertEnter",
     opts = {} -- this is equalent to setup({}) function
   },
@@ -45,8 +45,8 @@ require("lazy").setup({
   "hrsh7th/cmp-path",
   "hrsh7th/cmp-cmdline",
   "hrsh7th/nvim-cmp",
-  "hrsh7th/cmp-vsnip",
-  "hrsh7th/vim-vsnip"
+  "L3MON4D3/LuaSnip",
+  "saadparwaiz1/cmp_luasnip"
 })
 
 require("plugins.p-treesitter")
