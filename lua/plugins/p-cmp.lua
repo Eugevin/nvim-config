@@ -85,3 +85,6 @@ require('lspconfig')['gopls'].setup {
 require('lspconfig')['rust_analyzer'].setup {
   capabilities = capabilities
 }
+require('lspconfig')['eslint'].setup {
+  capabilities = capabilities
+}

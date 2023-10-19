@@ -8,6 +8,7 @@ lspconfig.emmet_ls.setup {}
 lspconfig.volar.setup {}
 lspconfig.gopls.setup {}
 lspconfig.rust_analyzer.setup {}
+lspconfig.eslint.setup {}
 
 
 -- Global mappings.
