@@ -1,16 +1,3 @@
--- Setup language servers.
-local lspconfig = require('lspconfig')
-lspconfig.pyright.setup {}
-lspconfig.tsserver.setup {}
-lspconfig.html.setup {}
-lspconfig.cssls.setup {}
-lspconfig.emmet_ls.setup {}
-lspconfig.volar.setup {}
-lspconfig.gopls.setup {}
-lspconfig.rust_analyzer.setup {}
-lspconfig.eslint.setup {}
-
-
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
 vim.keymap.set('n', '<space>e', vim.diagnostic.open_float)
