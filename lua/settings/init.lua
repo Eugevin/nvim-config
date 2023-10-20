@@ -1,3 +1,7 @@
+require("catppuccin").setup({
+  no_italic = true
+})
+
 vim.cmd("colorscheme catppuccin")
 
 vim.g.mapleader = " "
